@@ -4,5 +4,6 @@ public class Git {
 
         // añado modificaciones
         String git = "Soy la variable git";
+        System.out.println(git);
     }
 }

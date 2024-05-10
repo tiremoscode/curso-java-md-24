@@ -4,5 +4,6 @@ public class Pokemon {
         // para las Clases y Objetos
         System.out.println("Hola Pokemon!!!");
         String pikachu = "Soy pikachu";
+        System.out.println(pikachu);
     }
 }

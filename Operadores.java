@@ -1,4 +1,5 @@
 public class Operadores {
+    @SuppressWarnings("unused")
     public static void main(String[] args) {
         // Operador AND (&&)
         boolean resultado = (5 > 3) && (8 > 5);
