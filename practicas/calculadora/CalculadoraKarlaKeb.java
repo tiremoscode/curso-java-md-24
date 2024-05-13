@@ -13,7 +13,7 @@ public class CalculadoraKarlaKeb {
         System.out.println("El valor de la suma "+suma);
        
     
-        //Resta
+        //Resta 
         int resta = numero1 - numero2;
         System.out.println("El valor de la resta" + resta);
         
