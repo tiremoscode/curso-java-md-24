@@ -14,7 +14,7 @@ public class Operaciones {
         return numero1 - numero2;
     }
 
-    public double multiplcar(double numero1, double numero2) {
+    public double multipilcar(double numero1, double numero2) {
         return numero1 * numero2;
     }
 

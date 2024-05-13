@@ -12,7 +12,7 @@ public class Calculadora {
 
        System.out.println("resta de " + numero1 + " +  " + numero2 + " es igual a " + ope.restar(numero1, numero2));
 
-       System.out.println("multiplicacion de " + numero1 + " +  " + numero2 + " es igual a " + ope.multiplcar(numero1, numero2));
+       System.out.println("multiplicacion de " + numero1 + " +  " + numero2 + " es igual a " + ope.multiplicar(numero1, numero2));
 
        System.out.println("división  de " + numero1 + " +  " + numero2 + " es igual a " + ope.dividir(numero1, numero2));
 
