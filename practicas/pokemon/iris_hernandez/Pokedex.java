@@ -10,4 +10,6 @@ public class Pokedex {
         electrike.atacar();
         luxray.atacar();
     }
+
 }
+

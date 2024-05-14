@@ -23,4 +23,5 @@ class PokemonElectrico extends Pokemon implements Elemento {
     }
 
 
+
 }

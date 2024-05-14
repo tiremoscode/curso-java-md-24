@@ -20,4 +20,5 @@ class PokemonAire extends Pokemon implements Elemento {
         super.atacar();
         System.out.println(getNombre() + " lanza tornado!");
     }
+
 }
