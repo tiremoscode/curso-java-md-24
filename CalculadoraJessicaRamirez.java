@@ -17,7 +17,7 @@ public class CalculadoraJessicaRamirez {
         System.out.println("El valor de la multiplicación " +Multiplicación);
 
         // División
-        int division= numero1 / numero2;
+        float division= numero1 / numero2;
         System.out.println("El valor de la división "+division);
 
         
