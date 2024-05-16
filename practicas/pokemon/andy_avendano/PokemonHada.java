@@ -1,4 +1,4 @@
-package ejerciciosClase.Pokemon;
+package practicas.pokemon.andy_avendano;
 
 class PokemonHada extends Pokemon implements Elemento {
     public PokemonHada(String nombre, int nivel, int edad) {
@@ -21,4 +21,3 @@ class PokemonHada extends Pokemon implements Elemento {
         System.out.println(getNombre() + " lanza somnolencia");
     }
 }
-
