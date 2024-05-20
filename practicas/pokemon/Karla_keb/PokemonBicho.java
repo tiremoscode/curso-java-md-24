@@ -1,4 +1,4 @@
-package ejerciciosClase.pokemonesKarla_keb;
+package practicas.pokemon.Karla_keb;
 
 
 class PokemonBicho extends Pokemon implements Elemento {

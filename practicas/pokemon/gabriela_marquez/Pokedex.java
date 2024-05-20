@@ -9,10 +9,10 @@ public class Pokedex {
         PokemonVenenoso gengar = new PokemonVenenoso("Gengar", 95, 22);
 
         charmander.atacar();
-        squirtle.atacar();
-        pikachu.atacar();
-        raikou.atacar();
-        gengar.atacar();
+        //squirtle.atacar();
+        //pikachu.atacar();
+        //raikou.atacar();
+        //gengar.atacar();
     }
     
 }

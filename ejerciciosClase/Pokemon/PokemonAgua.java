@@ -1,8 +1,8 @@
 package ejerciciosClase.Pokemon;
 
 class PokemonAgua extends Pokemon implements Elemento {
-    public PokemonAgua(String nombre, int nivel, int edad) {
-        super(nombre, nivel, edad);
+    public PokemonAgua(String nombre, int nivel, int edad, double peso) {
+        super(nombre, nivel, edad, peso);
     }
 
     @Override

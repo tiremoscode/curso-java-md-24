@@ -1,4 +1,4 @@
-package ejerciciosClase.pokemonesKarla_keb;
+package practicas.pokemon.Karla_keb;
 
 class PokemonFuego extends Pokemon implements Elemento {
     public PokemonFuego(String nombre, int nivel, int edad) {
