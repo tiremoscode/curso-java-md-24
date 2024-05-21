@@ -18,7 +18,7 @@ class Pokemon {
     }
 
     public void atacar() {
-        System.out.println(nombre + " esta en ataque!");
+        System.out.println(nombre + " ¡esta en ataque!");
     }
 
     public String getNombre() {

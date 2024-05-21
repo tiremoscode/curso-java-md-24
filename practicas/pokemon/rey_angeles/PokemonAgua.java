@@ -18,6 +18,6 @@ class PokemonAgua extends Pokemon implements Elemento {
     @Override
     public void atacar() {
         super.atacar();
-        System.out.println(getNombre() + " lanza un chorro de agua!");
+        System.out.println(getNombre() + "¡lanza un chorro de agua!");
     }
 }
