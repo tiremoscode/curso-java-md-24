@@ -1,4 +1,5 @@
-package ejerciciosClase.Pokemon;
+package practicas.pokemon.diana_portilla;
+
 
 interface Elemento {
     String getElementType();
@@ -8,17 +9,15 @@ class Pokemon {
     private String nombre;
     private int nivel;
     private int edad;
-    private double peso;
 
-    public Pokemon(String nombre, int nivel, int edad, double peso) {
+    public Pokemon(String nombre, int nivel, int edad) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.edad = edad;
-        this.peso = peso;
     }
 
     public void atacar() {
-        System.out.println(nombre + " esta en ataque!");
+        System.out.println(nombre + " Ataca!!");
     }
 
     public String getNombre() {
@@ -32,7 +31,5 @@ class Pokemon {
     public int getNivel() {
         return nivel;
     }
-    public double getPeso(){
-        return peso;
-    }
 }
+

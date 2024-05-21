@@ -1,20 +1,22 @@
-package ejerciciosClase.Pokemon;
+package pokemon.VeronicaSalinas;
+
 
 interface Elemento {
+
     String getElementType();
+
 }
 
-class Pokemon {
+ class Pokemon {
+
     private String nombre;
     private int nivel;
     private int edad;
-    private double peso;
 
-    public Pokemon(String nombre, int nivel, int edad, double peso) {
+    public Pokemon(String nombre, int nivel, int edad) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.edad = edad;
-        this.peso = peso;
     }
 
     public void atacar() {
@@ -32,7 +34,5 @@ class Pokemon {
     public int getNivel() {
         return nivel;
     }
-    public double getPeso(){
-        return peso;
-    }
+
 }
