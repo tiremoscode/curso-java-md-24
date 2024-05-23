@@ -1,22 +1,17 @@
 
+package practicas.calculadoraClases.Calculadora.Rey-Angeles {
+  
 public class Operaciones {
-    //Suma
-    public double sumar(double numero1, double numero2) {
-        return numero1 + numero2;
+    public double sumar(double num1, double num2) {
+        return num1 + num2;
     }
-
-    //Resta
-    public double restar(double numero1, double numero2) {
-        return numero1 - numero2;
+    public double restar (double num1, double num2){
+        return num1 - num2;
     }
-
-    //Multiplicación
-    public double multiplicar(double numero1, double numero2) {
-        return numero1 * numero2;
+    public double multiplicacion (double num1, double num2){
+        return num1 * num2;
     }
-
-    //División
-    public double dividir(double numero1, double numero2) {
-        return numero1 / numero2;
+    public double dividir (double num1, double num2){
+        return num1 / num2;
     }
 }
