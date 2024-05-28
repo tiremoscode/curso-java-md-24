@@ -1,7 +1,8 @@
-## Tareas por entregar.
+## Listado de Tareas
 
-Última actualización: 16-Mayo-24
+Actualización: 16 Mayo 24
+Fecha limite de entrega: Domingo 2 de junio 2024
 
-- Calculadora con 4 operaciones base (Tipos de datos).
-- Calculadora por clases (Programación por clases).
-- Pokemon (Herencia, Polimorfismo e Interfaces.)
+- Calculadora Normal
+- Calculadora por Clases (Calculadora, Operaciones).
+- Pokemon (Herencia, Polimorfismo, Interfaces).
