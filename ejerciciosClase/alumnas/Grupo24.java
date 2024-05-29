@@ -8,7 +8,7 @@ public class Grupo24 {
     // JDBC
     private static String url = "jdbc:mysql://localhost:3306/grupo24";
     private static String usuario = "root";
-    private static String password= "buttons";
+    private static String password= "lulu";
 
     public void obtenerAlumnos(){
         String query = "SELECT * FROM alumnas";

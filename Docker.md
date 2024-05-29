@@ -13,7 +13,7 @@ docker build -t miserver-mysql-24 .
 2.- Ejecutar un contenedor con la imagen recién construida:
 
 ```bash
-docker run -d -p 3306:3306 --name mysql-server miserver-mysql-24
+docker run -d -p 3306:3306 --name mysql-server-24 miserver-mysql-24
 ```
 
 3.- Validar que el contenedor haya iniciado correctamente
@@ -25,7 +25,7 @@ docker ps
 4.- Ingresar a la consola del contenedor de MySQL.
 
 ```bash
-docker exec -it mysql-server bash
+docker exec -it mysql-server-24 bash
 ```
 
 5.- Ingresar a la consola de base de datos para crear nuestra tabla.
@@ -59,7 +59,7 @@ CREATE TABLE alumnas (
 9.- Insertar algunos registros
 
 ```sql
-INSERT INTO alumnas (name, email) VALUES
+INSERT INTO alumnas (nombre, edad) VALUES
 ('Jessica Silva', 28),
 ('Dulce Gallardo', 29);
 ```
