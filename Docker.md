@@ -68,12 +68,26 @@ INSERT INTO alumnas (nombre, edad) VALUES
 
 11.- Compilar nuestra clase haciendo uso de la librería.
 
+## Windows
+
+```bash
+javac -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase/alumnas/Grupo24.java
+```
+
+## MacOS / Linux
 ```bash
 javac -cp "ejerciciosClase/alumnas/lib/*" ejerciciosClase/alumnas/Grupo24.java
 ```
 
 12.- Ejecutar nuestro proyecto
 
+## Windows
+
+```bash
+java -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase.alumnas.Grupo24
+```
+
+## MacOS / Linux
 ```bash
 java -cp "ejerciciosClase/alumnas/lib/*:." ejerciciosClase.alumnas.Grupo24
 ```

@@ -21,7 +21,7 @@ public class Grupo24 {
                 int id = resultSet.getInt("id");
                 String nombre = resultSet.getString("nombre");
                 int edad = resultSet.getInt("edad");
-                System.out.println("ID: " + id + " Nombre: " + nombre + " Edad: " + edad);
+                System.out.println("* ID: " + id + " Nombre: " + nombre + " Edad: " + edad);
             }
 
         } catch (Exception e) {
